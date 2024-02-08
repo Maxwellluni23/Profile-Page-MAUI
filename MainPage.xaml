@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"  >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Frame Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Margin="-30,-25,-30,-30" CornerRadius="40" IsClippedToBounds="True" Padding="0">
+                <Image Aspect="AspectFill" Source="luningo.jpeg" HorizontalOptions="FillAndExpand" HeightRequest="410" />
+            </Frame>
+        
+
+        <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Text="Maxwell Luningo, 23" FontAttributes="Bold" Margin="0,20,0,0" FontSize="22"/>
+
+<Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3" Text="Software Developer" FontAttributes="Bold" FontSize="16" TextColor="#a3a3a3"/>
+<Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" Text="My Bio" FontAttributes="Bold" FontSize="16" Margin="0,20,0,0"/>
+<Label Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="5" Text="I am very ambitious person, Goal driven , ready to take on anything coming my way, work best will teams, very open minded" FontAttributes="Bold" FontSize="16" TextColor="#a3a3a3"/>
+<Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="6" Text="Interests" FontAttributes="Bold" FontSize="16" Margin="0,20,0,0"/>
+<Label Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="7" Text="Software development(HTML,C#,Flutter,Java, Computer Networking and soccer, " FontAttributes="Bold" FontSize="16" TextColor="#a3a3a3"/>
+           <Button
+                x:Name="CounterBtn"
+                Text="Click me" 
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
